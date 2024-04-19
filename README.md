@@ -1,9 +1,9 @@
 # TaskMaster
 TaskMaster es una aplicación desarrollada en Java utilizando el entorno de desarrollo NetBeans y una base de datos MySQL. Está diseñada para ayudar a los usuarios a organizar y administrar sus tareas diarias de manera eficiente.
 Miembros del equipo RapidEnCode Tecnologies: 
-Erlyn Valerio Fabian 
-Sebastian Escaño Pérez
-Rossy Antoinnette Soriano Vidal 
+Erlyn Valerio Fabian, 
+Sebastian Escaño Pérez,
+Rossy Antoinnette Soriano Vidal. 
 
 # Requisitos del Sistema
 1.1. Requisitos del Software
