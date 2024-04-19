@@ -34,13 +34,12 @@ public class Acerca_de extends javax.swing.JFrame {
         btn_Volver = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(600, 400));
 
         panel_fondo.setBackground(new java.awt.Color(102, 102, 102));
         panel_fondo.setForeground(new java.awt.Color(0, 0, 0));
         panel_fondo.setDoubleBuffered(false);
         panel_fondo.setFocusable(false);
-        panel_fondo.setPreferredSize(new java.awt.Dimension(460, 480));
+        panel_fondo.setPreferredSize(new java.awt.Dimension(480, 500));
         panel_fondo.setRequestFocusEnabled(false);
 
         jTextArea1.setEditable(false);
@@ -49,7 +48,7 @@ public class Acerca_de extends javax.swing.JFrame {
         jTextArea1.setFont(new java.awt.Font("Eras Bold ITC", 0, 14)); // NOI18N
         jTextArea1.setForeground(new java.awt.Color(255, 255, 255));
         jTextArea1.setRows(5);
-        jTextArea1.setText("ACERCA DE:\n\nTASKMASTES ES UN ES GESTOR DE TAREAS CREADO CON EL FIN DE\nFACILITAR A NUESTROS CLIENTES LA ORGANIZACIÓN \nTRABAJOS DE SUS EMPRESAS Y/O PROYECTOS PERSONALES, \nPARA ASÍ PODER LLEVAR UN ORDEN DESDE LO MÁS \nPRIORITARIO HASTA UNA UNA SALIDA PARA EL DÍA DE \nMAÑANA.\n\nEL GESTOR DE TAREAS DE TASKMASTER TIENE LA FACILIDAD DE \nPODER GUARDAD TANTO EL NOMBRE DE LA TAREA, LA  FECHA Y \nHORA EXACTA DE CUANDO DEBE SER REALIZADA E INCLUSO TE \nPERMITIRÁ DAR UNA BREVE DESCRIPCIÓN SOBRE LA TAREA A \nREALIZAR. PODRAS CONSULTAR TUS TAREAS PENDIENTE, \nEDITARLAS, YA SE QUE DEBAS HACERLO PARA UN TIEMPO MÁS\nCERCANO O MÁS LEJANO, Y PODRÁS ELIMINA LAS TARAS UNA VEZ \nYA HECHAS.\n\n\n\n\nVERSION INICIAL DEL SISTEMA: TaskMaster v1.0");
+        jTextArea1.setText("ACERCA DE:\n\nTASKMASTES ES UN ES GESTOR DE TAREAS CREADO CON EL FIN DE\nFACILITAR A NUESTROS CLIENTES LA ORGANIZACIÓN \nTRABAJOS DE SUS EMPRESAS Y/O PROYECTOS PERSONALES, \nPARA ASÍ PODER LLEVAR UN ORDEN DESDE LO MÁS \nPRIORITARIO HASTA UNA UNA SALIDA PARA EL DÍA DE \nMAÑANA.\n\nEL GESTOR DE TAREAS DE TASKMASTER TIENE LA FACILIDAD DE \nPODER GUARDAD TANTO EL NOMBRE DE LA TAREA, LA  FECHA Y \nHORA EXACTA DE CUANDO DEBE SER REALIZADA E INCLUSO TE \nPERMITIRÁ DAR UNA BREVE DESCRIPCIÓN SOBRE LA TAREA A \nREALIZAR. PODRAS CONSULTAR TUS TAREAS PENDIENTE, \nEDITARLAS, YA SE QUE DEBAS HACERLO PARA UN TIEMPO MÁS\nCERCANO O MÁS LEJANO, Y PODRÁS ELIMINA LAS TARAS UNA VEZ \nYA HECHAS.\n\nPROVEEDOR: RapidEnCode Technology\nCreadores: Rossy Soriano, Sebastian Escaño y Erlyn Valerio\n\n\nVERSION INICIAL DEL SISTEMA: TaskMaster v0.1");
         jTextArea1.setAutoscrolls(false);
         jTextArea1.setBorder(null);
         jTextArea1.setCaretColor(new java.awt.Color(255, 255, 255));
@@ -98,7 +97,7 @@ public class Acerca_de extends javax.swing.JFrame {
                 .addGap(17, 17, 17)
                 .addGroup(panel_fondoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(panel_fondoLayout.createSequentialGroup()
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 504, Short.MAX_VALUE)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 502, Short.MAX_VALUE)
                         .addGap(21, 21, 21))
                     .addGroup(panel_fondoLayout.createSequentialGroup()
                         .addComponent(btn_Volver)
@@ -114,8 +113,8 @@ public class Acerca_de extends javax.swing.JFrame {
                     .addComponent(btn_Volver)
                     .addComponent(btn_Logo))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 384, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(104, 104, 104))
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 426, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(62, 62, 62))
         );
 
         jScrollPane1.setViewportView(panel_fondo);
